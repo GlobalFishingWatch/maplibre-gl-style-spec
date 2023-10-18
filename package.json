@@ -1,7 +1,7 @@
 {
   "name": "@globalfishingwatch/maplibre-gl-style-spec",
   "description": "a specification for maplibre styles",
-  "version": "19.3.2",
+  "version": "19.3.2-gfw.1",
   "author": "MapLibre",
   "keywords": [
     "mapbox",
@@ -28,7 +28,7 @@
     "compile": "tsc",
     "lint": "eslint --cache --ext .ts,.tsx --ignore-path .gitignore .",
     "typecheck": "tsc --noEmit",
-    "prepare": "npm run generate-style-spec"
+    "prepare": "npm run generate-style-spec && npm run generate-typings"
   },
   "repository": {
     "type": "git",
